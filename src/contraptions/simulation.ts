@@ -28,7 +28,7 @@ const DEBRIS_VELOCITY_START = 5;
 const DEBRIS_VELOCITY_END = 25;
 
 try {
-    GlobalFonts.registerFromPath(path.join(__dirname, '..', '..', 'assets', 'contraptions', 'outfit.ttf'), 'Outfit');
+    GlobalFonts.registerFromPath(path.join(__dirname, '..', '..', 'assets', 'contraptions', 'font', 'outfit.ttf'), 'Outfit');
 } catch (e) { console.error("Could not load font.", e); }
 
 const collisionCategories = {
